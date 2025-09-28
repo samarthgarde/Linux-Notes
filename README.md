@@ -8,7 +8,7 @@ Linux distributions, such as Ubuntu, Fedora, Debian, CentOS, and many others, ta
 Linux offers a command-line interface (CLI) that allows users to interact with the system through text commands, as well as graphical user interfaces (GUIs) that provide a more user-friendly experience. It supports a wide range of applications, software development tools, and server services, making it suitable for various purposes, including general computing, web servers, cloud infrastructure, networking, and more.
 
 ## Linux Folder Structure
-![File System](filesystem.png)
+![File System]<img src="filesystem.png" alt="Description" width="300"/>
 
 The folder structure in Ubuntu Linux follows the Filesystem Hierarchy Standard (FHS), which is a standard for organizing the files and directories on a Unix-like operating system. Here is an overview of the main directories you will typically find in Ubuntu:
 

@@ -1,4 +1,4 @@
-## Linux command Guide
+# Linux command Guide
 
 ### Basic commands
 

@@ -13,3 +13,9 @@
 - ```mkdir <dir1> <dir2> <dirn>```: Create multiple directories.
 - ```mkdir -p <dir>/<dir>```: Create nested directories using the -p flag.
 - ```rm -rf <dir>```: Remove directory recursively and forcefully.
+- ```mv <dir1/file1> <dir2/file2>```: Rename or move files/directories.
+- ```mv <file> <file> <folder>```: Move files to a folder.
+- ```cp -r <dir> <dir>```: Copy folders recursively.
+- ```cp <file1> <file2>```: Copy files.
+
+👉 [Check out my Vim Tutorial!](vim.sh)

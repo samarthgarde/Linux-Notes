@@ -44,3 +44,24 @@
 
 ## Text Manipulation
 - ```cat file1 > file2 >> file3```: Copy and append content between files.
+- ```less filename```: Display file content with a user-friendly interface.
+- ```tail```: Display the end of a file (useful for log files).
+- ```wc -l -w -c file.txt```: Count lines, words, and bytes in a file.
+- ```grep```: Search for patterns in files.
+
+## Permissions and Ownership
+- chown <owner> <file>: Change file owner.
+- chown -R <owner> <file>: Change owner recursively.
+- chown <owner>:<group> <file>: Change owner and group.
+- chgrp <group> <file>: Change group ownership.
+- chmod: Change file permissions.
+- chmod 777 <filename>: Set permissions using numeric representation.
+- umask -S: Display the default permissions mask.
+
+## Disk Usage
+- ```du```: Calculate directory size in bytes.
+- ```du -m```: Calculate size in megabytes.
+- ```du -g```: Calculate size in gigabytes.
+- ```du -h```: Human-readable size notation.
+- ```df```: Display disk usage information.
+- ```df -h```: Human-readable size notation.

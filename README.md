@@ -19,3 +19,28 @@
 - ```cp <file1> <file2>```: Copy files.
 
 👉 [Check out my Vim Tutorial!](Vim/vim.sh)
+
+## File and Directory Operations
+
+- ```xdg-open <filename>```: Open a file.
+- ```xdg-open -a <application name>```: Run an application.
+- ```gedit <file>```: Open a file using the gedit text editor.
+- ```gedit *.ext```: Open all files with a given extension.
+- ```touch <file>```: Create an empty file or update its timestamp
+- ```find <root path> -name '<file>.<ext>'```: Search for files by name.
+- ```find <root path> -type d -name src```: Find directories by name.
+- ```find <dir1> <dir2> -name <file>```: Search under multiple root trees.
+- ```find . -type f -size +100k -size -1M```: Search files by size range.
+- ```find . -type f -mtime +3```: Search files edited more than 3 days ago.
+- ```find . -type f -exec cat {} \;```: Execute a command on search results.
+
+---
+
+## Compression and Archiving
+- ```gzip -2 -r -v folder_name```: Compress files/folders with options.
+- ```gunzip```: Decompress compressed files.
+- ```tar -cf archive.tar file1 file2```: Create an archive with tar
+- ```tar -xf archive.tar```: Extract files from an archive
+
+## Text Manipulation
+- ```cat file1 > file2 >> file3```: Copy and append content between files.

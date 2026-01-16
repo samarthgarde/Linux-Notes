@@ -50,13 +50,13 @@
 - ```grep```: Search for patterns in files.
 
 ## Permissions and Ownership
-- chown <owner> <file>: Change file owner.
-- chown -R <owner> <file>: Change owner recursively.
-- chown <owner>:<group> <file>: Change owner and group.
-- chgrp <group> <file>: Change group ownership.
-- chmod: Change file permissions.
-- chmod 777 <filename>: Set permissions using numeric representation.
-- umask -S: Display the default permissions mask.
+- ```chown <owner> <file>```: Change file owner.
+- ```chown -R <owner> <file>```: Change owner recursively.
+- ```chown <owner>:<group> <file>```: Change owner and group.
+- ```chgrp <group> <file>```: Change group ownership.
+- ```chmod```: Change file permissions.
+- ```chmod 777 <filename>```: Set permissions using numeric representation.
+- ```umask -S```: Display the default permissions mask.
 
 ## Disk Usage
 - ```du```: Calculate directory size in bytes.

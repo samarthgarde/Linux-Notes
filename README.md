@@ -18,4 +18,4 @@
 - ```cp -r <dir> <dir>```: Copy folders recursively.
 - ```cp <file1> <file2>```: Copy files.
 
-👉 [Check out my Vim Tutorial!](vim.sh)
+👉 [Check out my Vim Tutorial!](Vim/vim.sh)

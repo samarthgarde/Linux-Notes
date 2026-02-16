@@ -97,7 +97,6 @@ Hard disks
 SSDs
 USB drives
 Network devices
-
 🔹 Virtual (software) devices
 Random number generator
 Null device

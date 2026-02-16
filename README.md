@@ -83,4 +83,23 @@ Projects
 Stores running service data
 Stores mail, cache, spools
 Grows continuously
+- ``/boot``: The brain files that help Linux start the OS. Without /boot, Linux cannot start. What happens during boot (simple flow)
+1️⃣ Computer power ON
+2️⃣ BIOS / UEFI starts
+3️⃣ Bootloader loads from /boot
+4️⃣ Linux kernel loads
+5️⃣ System starts services
+
+- ``/dev``: contains device files that represent hardware and virtual divices
+A bridge between software and hardware. What kind of devices are in /dev?
+🔹 Physical devices
+Hard disks
+SSDs
+USB drives
+Network devices
+
+🔹 Virtual (software) devices
+Random number generator
+Null device
+Zero device
 

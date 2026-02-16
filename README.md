@@ -102,3 +102,14 @@ Random number generator
 Null device
 Zero device
 
+- ``/lib``: /lib stores essential shared libraries and kernel modules required for the system to work.
+What is inside /lib?
+🔹 Shared libraries
+Example:``/lib/x86_64-linux-gnu/libc.so.6``
+
+- **Common File System Types**:
+- EXT4 (Fourth Extended File System): The standard and most common default file system.
+- XFS: High-performance journaling file system.
+- Btrfs (B-tree File System): Supports advanced features like snapshots and pooling.
+- F2FS (Flash-Friendly File System): Optimized for NAND-based storage, such as SD cards and SSDs. 
+

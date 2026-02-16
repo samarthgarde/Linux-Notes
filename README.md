@@ -69,3 +69,15 @@
 ## File System
 Linux File system is a hierichical, tree structured system starting at the Root directory(/). Common directories include /etc (config), /home (users), /bin (binaries), /var (logs).
 - ``/(Root Directory)``: The top level of root directory.
+**I-nodes** - That store metadata(permission, size, location, owner)
+- ``/bin & /usr/bin``: essential command binaries (e.g- ls, cd cat).
+- ``/etc``: System wide configuration files, these files control how linux behaves, almost everything is /etc is a text file used by the os services and the application.
+- ``/home``: Stores user files, Stores user settings
+What is inside a user’s home directory?
+Inside /home/username/ you’ll find:
+🔹 Personal files
+Documents
+Downloads
+Projects
+
+

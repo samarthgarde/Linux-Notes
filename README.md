@@ -65,3 +65,7 @@
 - ```du -h```: Human-readable size notation.
 - ```df```: Display disk usage information.
 - ```df -h```: Human-readable size notation.
+
+## File System
+Linux File system is a hierichical, tree structured system starting at the Root directory(/). Common directories include /etc (config), /home (users), /bin (binaries), /var (logs).
+- ``/(Root Directory)``: The top level of root directory.

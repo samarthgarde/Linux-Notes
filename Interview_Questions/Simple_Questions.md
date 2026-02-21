@@ -59,4 +59,22 @@ Linux is a free and open-source operating system based on Unix that helps run co
 - Supercomputers
 - DevOps environments
 
+---
+
+### 4. Difference between linux vs windows
+### Linux:
+- Open-source operating system
+- Free to use
+- Mostly used in servers
+- Highly customizable
+- More secure and stable
+- Command-line focused
+
+  ### Windows:
+  - Proprietary operating system
+  - Requires license
+  - Mostly used in personal computers
+  - Limited customization
+  - More vulnerable to viruses
+
 

@@ -77,4 +77,29 @@ Linux is a free and open-source operating system based on Unix that helps run co
   - Limited customization
   - More vulnerable to viruses
 
+---
+
+### what is kernet shell and boot loader in linux?
+### Kernel:
+The kernel is the core part of the Linux operating system.
+It manages the communication between hardware and software.
+
+### Shell:
+The shell is a command-line interface that allows users to interact with the operating system.
+
+**Examples:**
+- Bash
+- Sh
+- Zsh
+- Fish
+
+## Bootloader
+The bootloader is a program that starts the operating system when the computer turns on.
+
+Common Linux bootloader:
+- GNU GRUB
+
+---
+
+
 

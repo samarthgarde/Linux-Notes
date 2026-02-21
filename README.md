@@ -113,3 +113,21 @@ Example:``/lib/x86_64-linux-gnu/libc.so.6``
 - Btrfs (B-tree File System): Supports advanced features like snapshots and pooling.
 - F2FS (Flash-Friendly File System): Optimized for NAND-based storage, such as SD cards and SSDs. 
 
+---
+
+## SSH in Linux
+SSH (Secure Shell) is a network protocol used to securely connect to another computer or server over a network.
+
+### Login to a remote server
+```
+chmod 400 <key pair name>
+```
+```
+ssh -i <key pair name> ubuntu@<its public DNS
+```
+
+---
+
+
+
+

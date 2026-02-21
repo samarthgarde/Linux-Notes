@@ -41,4 +41,22 @@ An application server processes application logic and interacts with databases t
 
 ---
 
+### 3. what is linux Introdiuction to linux os?
+### Introduction to Linux
+Linux is a free and open-source operating system based on Unix that helps run computers, servers, and applications.
+
+### Why Linux is Popular
+- Open source (anyone can view and modify the code)
+- Secure and stable
+- Free to use
+- Highly customizable
+- Used in servers and cloud platforms
+
+### Where Linux is Used
+- Web Servers
+- Cloud Platforms
+- Mobile Phones (Android is based on Linux)
+- Supercomputers
+- DevOps environments
+
 

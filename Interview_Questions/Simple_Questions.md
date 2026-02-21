@@ -138,6 +138,25 @@ Shows memory usage.
 
 ---
 
+### 8. Differene between hard link and soft link ?
+It basically means create a shortcut
+
+### Soft Link (Symbolic Link)
+A soft link is a pointer that points to the original file path.
+
+Example command:
+```
+ln -s file1.txt linkfile.txt
+```
+
+### Hard link:
+A hard link is another name for the same file.
+Both files share the same inode and data.
+
+Example command:
+```
+ln file1.txt file2.txt
+```
 
 
 

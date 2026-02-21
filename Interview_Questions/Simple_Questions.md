@@ -115,6 +115,31 @@ Common Linux bootloader:
 ```
 Linux architecture consists of hardware, kernel, shell, and applications working together to run the operating system.
 
+---
+
+### 7. Hardware in Linux with commands
+Hardware refers to the physical components of a computer that the Linux operating system uses to run programs and perform tasks.
+
+### Hardware Information Commands in Linux
+```
+lscpu
+```
+Shows CPU information.
+
+```
+lsblk
+```
+Shows disk and storage devices.
+
+```
+free -h
+```
+Shows memory usage.
+
+---
+
+
+
 
 
 

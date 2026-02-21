@@ -1,6 +1,6 @@
 # Vim Tutorial
 
-Vim operates in different modes for various actions. Here are some key commands to get started:
+Vim is a powerful text editor used in Linux to create, edit, and manage text files directly from the terminal. Here are some key commands to get started:
 
 ## Insert Mode
 
@@ -19,4 +19,14 @@ Vim operates in different modes for various actions. Here are some key commands 
 - ```set number```: Display line numbers.
 - ```Movement```: 
 - ```h```: Move left
-- ```j```:
+
+### Save
+- ```:W```
+
+## Save and Exit
+- ```:wq```
+
+## Exit Without Saving
+- ```:q!```
+
+

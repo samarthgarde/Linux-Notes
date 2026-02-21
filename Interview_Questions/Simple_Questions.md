@@ -79,7 +79,7 @@ Linux is a free and open-source operating system based on Unix that helps run co
 
 ---
 
-### what is kernet shell and boot loader in linux?
+### 5.what is kernet shell and boot loader in linux?
 ### Kernel:
 The kernel is the core part of the Linux operating system.
 It manages the communication between hardware and software.
@@ -100,6 +100,22 @@ Common Linux bootloader:
 - GNU GRUB
 
 ---
+
+### 6. Linux System Architecture
+```
++----------------------+
+|      Applications    |
++----------------------+
+|        Shell         |
++----------------------+
+|        Kernel        |
++----------------------+
+|       Hardware       |
++----------------------+
+```
+Linux architecture consists of hardware, kernel, shell, and applications working together to run the operating system.
+
+
 
 
 

@@ -1,5 +1,21 @@
-### 1.Differrence Between Server and client?
-Server:To serve information 
-Example : Web Server, DB Server, App server
-Client: To request for information to server
-Example: Browser, mobile app
+### 1. Differrence Between Server and client?
+### Server
+A server is a computer or system that provides information, resources, or services to other computers over a network.
+**Examples:**
+- Web Server
+- Database Server
+- Application Server
+
+### Client: 
+A client is a device or application that sends a request to a server to get information or services.
+**Examples:**
+- Web Browser
+- Mobile Application
+- Desktop Application
+
+---
+
+### Simple Flow
+
+Client → Request → Server  
+Server → Response → Client

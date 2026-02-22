@@ -1,7 +1,5 @@
 # Linux command Guide
-
 ### Basic commands
-
 - ```man <command>```: View manuals with essential information for commands.
 - ```tldr <command>```: Get consise imformation and imformation for commands.
 - ```/```: is the main directory of Linux.
@@ -35,6 +33,19 @@
 - ```find . -type f -size +100k -size -1M```: Search files by size range.
 - ```find . -type f -mtime +3```: Search files edited more than 3 days ago.
 - ```find . -type f -exec cat {} \;```: Execute a command on search results.
+
+---
+
+## System-level commands
+- ```uname```: display information about the Linux system
+- ```uname -r```:Shows kernel version
+- ```uptime```: Current system time
+- ```who```:Shows all users currently logged into the system
+- ```whoami```:Shows current logged-in user
+- ```which```: find the location of a command
+- ```id```:displays the user ID, group ID, and group information of a user in Linux
+- ```sudo```: allows a permitted user to run commands with superuser (root) privileges.
+- ```apt```: is a Linux package manager used to install, update, and remove software packages. (Debian Based)
 
 ---
 

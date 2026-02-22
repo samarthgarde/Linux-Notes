@@ -79,6 +79,18 @@
 - ```grep```: Search for patterns in files.
 
 ## Permissions and Ownership
+
+Permission | Value |
+|----------|-------|
+|   ---    |  0    |
+|   --x    |  1    |
+|   -w-    |  2    |
+|   -wx    |  3    |
+|   r--    |  4    |
+|   r-x    |  5    |
+|   rw-    |  6    |
+|   rwx    |  7    |
+
 - ```chown <owner> <file>```: Change file owner.
 - ```chown -R <owner> <file>```: Change owner recursively.
 - ```chown <owner>:<group> <file>```: Change owner and group.

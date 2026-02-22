@@ -4,6 +4,8 @@
 
 - ```man <command>```: View manuals with essential information for commands.
 - ```tldr <command>```: Get consise imformation and imformation for commands.
+- ```/```: is the main directory of Linux.
+- ```/root```:is the home directory of the root (administrator) user.
 - ```cd /```: change the root directory
 - ```cd ~```: change to the users directory
 - ```.```: Current Diectory

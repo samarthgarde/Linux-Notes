@@ -108,13 +108,17 @@ Permission | Value |
 
 ### How to Change Permissions
 ### Symbolic Method
+```
 chmod u+x file.sh
 chmod g-w file.txt
 chmod o+r file.txt
+```
 
 ### Numeric Method
+```
 chmod 755 script.sh
 chmod 644 file.txt
+```
 
 ---
 

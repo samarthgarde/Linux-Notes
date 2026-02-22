@@ -80,6 +80,21 @@
 
 ## Permissions and Ownership
 
+In Linux, every file and directory has three types of permissions:
+
+- **r** = Read
+- **w** = Write
+- **x** = Execute
+
+These permissions are assigned to:
+- **Owner (User)**
+- **Group**
+- **Others**
+
+---
+
+### Permission Values Table
+
 Permission | Value |
 |----------|-------|
 |   ---    |  0    |
@@ -91,12 +106,33 @@ Permission | Value |
 |   rw-    |  6    |
 |   rwx    |  7    |
 
+### How to Change Permissions
+### Symbolic Method
+chmod u+x file.sh
+chmod g-w file.txt
+chmod o+r file.txt
+
+### Numeric Method
+chmod 755 script.sh
+chmod 644 file.txt
+
+---
+
+## Common Permission Examples
+
+| Command | Meaning |
+|--------|---------|
+| chmod 777 file | Everyone can read, write and execute |
+| chmod 755 file | Owner full access, others read & execute |
+| chmod 700 file | Only owner has access |
+| chmod 644 file | Owner read/write, others read only |
+
+---
+
 - ```chown <owner> <file>```: Change file owner.
 - ```chown -R <owner> <file>```: Change owner recursively.
 - ```chown <owner>:<group> <file>```: Change owner and group.
 - ```chgrp <group> <file>```: Change group ownership.
-- ```chmod```: Change file permissions.
-- ```chmod 777 <filename>```: Set permissions using numeric representation.
 - ```umask -S```: Display the default permissions mask.
 
 ## Disk Usage

@@ -49,11 +49,21 @@
 
 ---
 
+## User and Group management commands
+- ```useradd -m```:creates a new user and automatically creates their home directory
+**Example**: ```sudo useradd -m <username>```
+- ```sudo passwd username```: Set Password for the User
+- ```su <username>```: Enter another user
+- 
+
+
 ## Compression and Archiving
 - ```gzip -2 -r -v folder_name```: Compress files/folders with options.
 - ```gunzip```: Decompress compressed files.
 - ```tar -cf archive.tar file1 file2```: Create an archive with tar
 - ```tar -xf archive.tar```: Extract files from an archive
+
+---
 
 ## Text Manipulation
 - ```cat file1 > file2 >> file3```: Copy and append content between files.

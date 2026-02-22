@@ -54,8 +54,14 @@
 **Example**: ```sudo useradd -m <username>```
 - ```sudo passwd username```: Set Password for the User
 - ```su <username>```: Switch another user
-- 
+- ```sudo userdel -r <username>```: removes an existing user from the system.
+- ```sudo groupadd groupname```: creates a new group in the system
+- ```sudo groupdel <groupname>```: delete group
+- ```sudo gpasswd -a username groupname```: Add User to Group
+- ```sudo gpasswd -M user1,user2,user3 groupname```: Add Multiple Users to Group
+- ```cat /etc/group```: You can check group
 
+---
 
 ## Compression and Archiving
 - ```gzip -2 -r -v folder_name```: Compress files/folders with options.

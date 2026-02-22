@@ -53,7 +53,7 @@
 - ```useradd -m```:creates a new user and automatically creates their home directory
 **Example**: ```sudo useradd -m <username>```
 - ```sudo passwd username```: Set Password for the User
-- ```su <username>```: Enter another user
+- ```su <username>```: Switch another user
 - 
 
 
@@ -89,56 +89,210 @@
 - ```df```: Display disk usage information.
 - ```df -h```: Human-readable size notation.
 
-## File System
-Linux File system is a hierichical, tree structured system starting at the Root directory(/). Common directories include /etc (config), /home (users), /bin (binaries), /var (logs).
-- ``/(Root Directory)``: The top level of root directory.
-- **I-nodes** - That store metadata(permission, size, location, owner)
-- ``/bin & /usr/bin``: essential command binaries (e.g- ls, cd cat).
-- ``/etc``: System wide configuration files, these files control how linux behaves, almost everything is /etc is a text file used by the os services and the application.
-- ``/home``: Stores user files, Stores user settings
-What is inside a user’s home directory?
-Inside /home/username/ you’ll find:
-🔹 Personal files
-Documents
-Downloads
-Projects
-- ``/var``:(variable Data): Stores logs
-Stores running service data
-Stores mail, cache, spools
-Grows continuously
-- ``/boot``: The brain files that help Linux start the OS. Without /boot, Linux cannot start. What happens during boot (simple flow)
-1️⃣ Computer power ON
-2️⃣ BIOS / UEFI starts
-3️⃣ Bootloader loads from /boot
-4️⃣ Linux kernel loads
-5️⃣ System starts services
+## Linux File System
 
-- ``/dev``: contains device files that represent hardware and virtual divices
-A bridge between software and hardware. What kind of devices are in /dev?
-🔹 Physical devices
-Hard disks
-SSDs
-USB drives
-Network devices
-🔹 Virtual (software) devices
-Random number generator
-Null device
-Zero device
+The **Linux file system** is a hierarchical, tree-structured system that starts from the **root directory `/`**.  
+All files and directories originate from this root.
 
-- ``/lib``: /lib stores essential shared libraries and kernel modules required for the system to work.
-What is inside /lib?
-🔹 Shared libraries
-Example:``/lib/x86_64-linux-gnu/libc.so.6``
-
-- **Common File System Types**:
-- EXT4 (Fourth Extended File System): The standard and most common default file system.
-- XFS: High-performance journaling file system.
-- Btrfs (B-tree File System): Supports advanced features like snapshots and pooling.
-- F2FS (Flash-Friendly File System): Optimized for NAND-based storage, such as SD cards and SSDs. 
+Example structure:
+/
+├── bin
+├── boot
+├── dev
+├── etc
+├── home
+├── lib
+├── var
+└── usr
 
 ---
 
-## SSH in Linux
+## Root Directory `/`
+
+`/` is the **top-level directory** in Linux.  
+Every file and directory exists under this root.
+
+Example:
+/home/user/file.txt
+
+---
+
+## Inodes
+
+**Inodes** store metadata about files.
+
+They contain information such as:
+
+- File permissions  
+- File size  
+- File owner  
+- File location on disk  
+- Timestamps  
+
+Note: Inodes **do not store the filename**, only the metadata.
+
+---
+
+## Important Linux Directories
+
+### `/bin` and `/usr/bin`
+
+These directories contain **essential command binaries** used by all users.
+
+Examples:
+ls
+cp
+mv
+cat
+echo
+
+---
+
+### `/etc`
+
+The `/etc` directory contains **system-wide configuration files**.
+
+These files control how Linux behaves.
+
+Key points:
+
+- Most files in `/etc` are **text configuration files**
+- Used by the **OS, services, and applications**
+
+Examples:
+
+---
+
+### `/home`
+
+`/home` stores **personal directories for users**.
+
+Example:
+/home/samarth
+/home/user1
+
+
+### What is inside a user's home directory?
+
+Inside `/home/username/` you will find:
+
+- Documents  
+- Downloads  
+- Projects  
+- Personal files  
+- User settings  
+- Application configuration files
+
+---
+
+### `/var` (Variable Data)
+
+The `/var` directory stores **data that changes frequently**.
+
+Examples include:
+
+- System logs  
+- Running service data  
+- Mail  
+- Cache  
+- Print queues  
+
+Examples:
+
+/var/log
+/var/mail
+/var/cache
+
+This directory **continues growing while the system runs**.
+
+---
+
+### `/boot`
+
+The `/boot` directory contains files required to **start the Linux operating system**.
+
+Without `/boot`, Linux cannot start.
+
+Important contents:
+
+- Linux kernel  
+- Bootloader files  
+- Initial RAM disk  
+
+### Boot Process (Simple Flow)
+
+1. Computer Power ON  
+2. BIOS / UEFI starts  
+3. Bootloader loads from `/boot`  
+4. Linux Kernel loads  
+5. System starts services  
+
+---
+
+### `/dev`
+
+The `/dev` directory contains **device files**.
+
+These files represent hardware and virtual devices and act as a **bridge between software and hardware**.
+
+## Physical Devices
+
+Examples:
+
+- Hard disks  
+- SSDs  
+- USB drives  
+- Network devices
+
+---
+
+### `/lib`
+
+The `/lib` directory stores **essential shared libraries** and **kernel modules** required for the system to run.
+
+Programs in `/bin` and `/usr/bin` depend on these libraries.
+
+---
+
+## Common Linux File System Types
+
+### EXT4 (Fourth Extended File System)
+
+- Most common Linux file system  
+- Default in many distributions  
+- Stable and reliable  
+
+---
+
+## XFS
+
+- High-performance journaling file system  
+- Suitable for large-scale systems  
+- Common in enterprise environments  
+
+---
+
+## Btrfs (B-tree File System)
+
+Advanced features:
+
+- Snapshots  
+- Data integrity  
+- Storage pooling  
+
+---
+
+### F2FS (Flash-Friendly File System)
+
+Optimized for flash-based storage such as:
+
+- SSDs  
+- SD cards  
+- Embedded devices  
+
+---
+
+### SSH in Linux
 SSH (Secure Shell) is a network protocol used to securely connect to another computer or server over a network.
 
 ### Login to a remote server
@@ -148,8 +302,6 @@ chmod 400 <key pair name>
 ```
 ssh -i <key pair name> ubuntu@<its public DNS
 ```
-
----
 
 
 

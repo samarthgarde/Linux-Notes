@@ -378,6 +378,16 @@ ssh -i <key pair name> ubuntu@<its public DNS
 - ```ping```: To check network connectivity between two systems.
 - ```netstat```: view network connections, open ports, routing tables, and network statistics on a system
 - ````ifconfig```: view and manage network interfaces on a Linux system.
-- 
-
-
+- ```traceroute```: This displays each router (hop) between your system and the destination.
+- ```mtr```: Shows path and real-time network performance.
+- ```nslookup```: find the IP address of a domain name or get DNS information about a domain.
+- ```telnet```: particaular domain, wesite, portname to help access
+- ```hostname```: to change host for this command
+- ```iwconfig``` : display wireless config
+- ```dig```: get detailed information about domain names.
+- ```ifplugstatus```: to check run interfaces
+- ```curl``` : api calling / transfer data using URLs.
+- ```jq```: A jq program is a filter that takes an input and produces an output
+- ```wget```: download the any files
+- ```nmap```: where to go and how its ended
+- ```route```: show the route tables

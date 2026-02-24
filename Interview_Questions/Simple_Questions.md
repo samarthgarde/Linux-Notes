@@ -93,7 +93,7 @@ The shell is a command-line interface that allows users to interact with the ope
 - Zsh
 - Fish
 
-## Bootloader
+### Bootloader
 The bootloader is a program that starts the operating system when the computer turns on.
 
 Common Linux bootloader:
@@ -158,8 +158,22 @@ Example command:
 ln file1.txt file2.txt
 ```
 
+---
 
+### 9. The difference between awk vs sed command?
+Both awk and sed are used for text processing in Linux, but they are used for different purposes.
 
+#### sed (stream editor)
+sed is mainly used to search, replace, insert, or delete text in a file
 
+**Example:**
+```sed -i 's/dev/prod/g' config.yaml```
+
+#### awk
+awk is used to text processing and reporting.
+It is mainly used to work with columns and structured data.
+
+**Example:**
+```awk '{print $1}' access.log```
 
 

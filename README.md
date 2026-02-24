@@ -391,3 +391,28 @@ ssh -i <key pair name> ubuntu@<its public DNS
 - ```wget```: download the any files
 - ```nmap```: where to go and how its ended
 - ```route```: show the route tables
+
+---
+
+## Logical Volume management 
+It is a technology that allows you to manage disk storage more flexile
+
+**Key ideas in LVM:**
+
+**Physical Volume (PV)**
+Actual disk or partition.
+
+**Volume Group (VG)**
+Collection of physical volumes.
+
+**Logical Volume (LV)**
+Virtual partition created from the volume group.
+
+Common commands
+```
+pvcreate
+vgcreate
+lvcreate
+lvextend
+lvreduce
+```

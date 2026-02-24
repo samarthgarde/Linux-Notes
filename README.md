@@ -77,9 +77,17 @@
 ## Text Manipulation
 - ```cat file1 > file2 >> file3```: Copy and append content between files.
 - ```less filename```: Display file content with a user-friendly interface.
-- ```tail```: Display the end of a file (useful for log files).
+- ```head filename```: display first 10 lines of a command.
+- ```tail filename```: Display last 10 line of acommand
 - ```wc -l -w -c file.txt```: Count lines, words, and bytes in a file.
-- ```grep```: Search for patterns in files.
+- ```grep -i error file.txt (ignore case)```: Search text inside files.
+- ```cut -d "," -f2 data.csv```: extract specific columns from text
+- ```awk '{print $1}' file.txt```: text processing and reporting.
+- ```sed 's/error/warning/' file.txt```: modify text in a file or output.
+- ```sort```: sort lines of a file
+- ```unique```: remove duplicate lines.
+
+---
 
 ## Permissions and Ownership
 

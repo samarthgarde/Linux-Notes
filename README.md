@@ -102,8 +102,6 @@ These permissions are assigned to:
 - **Group**
 - **Others**
 
----
-
 ### Permission Values Table
 
 Permission | Value |
@@ -131,8 +129,6 @@ chmod 755 script.sh
 chmod 644 file.txt
 ```
 
----
-
 ## Common Permission Examples
 
 | Command | Meaning |
@@ -159,6 +155,8 @@ chmod 644 file.txt
 - ```du -h```: Human-readable size notation.
 - ```df```: Display disk usage information.
 - ```df -h```: Human-readable size notation.
+
+---
 
 ## Linux File System
 
@@ -335,7 +333,7 @@ Programs in `/bin` and `/usr/bin` depend on these libraries.
 
 ---
 
-## XFS
+### XFS
 
 - High-performance journaling file system  
 - Suitable for large-scale systems  
@@ -343,7 +341,7 @@ Programs in `/bin` and `/usr/bin` depend on these libraries.
 
 ---
 
-## Btrfs (B-tree File System)
+### Btrfs (B-tree File System)
 
 Advanced features:
 
@@ -373,3 +371,13 @@ chmod 400 <key pair name>
 ```
 ssh -i <key pair name> ubuntu@<its public DNS
 ```
+
+---
+
+## Networking commands:
+- ```ping```: To check network connectivity between two systems.
+- ```netstat```: view network connections, open ports, routing tables, and network statistics on a system
+- ````ifconfig```: view and manage network interfaces on a Linux system.
+- 
+
+

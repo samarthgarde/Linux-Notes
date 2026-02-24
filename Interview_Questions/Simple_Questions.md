@@ -171,7 +171,7 @@ sed is mainly used to search, replace, insert, or delete text in a file
 
 #### awk
 awk is used to text processing and reporting.
-It is mainly used to work with columns and structured data.
+It is mainly used to work with columns and structured data (CSV and Tab separated).
 
 **Example:**
 ```awk '{print $1}' access.log```

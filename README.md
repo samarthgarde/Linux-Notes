@@ -64,10 +64,13 @@
 ---
 
 ## Compression and Archiving
+- ```zip -r <filename.zip> <directory_name>``` : Zip folder
+- ```unzip <filename>``` : unzippedd/decompress file
 - ```gzip -2 -r -v folder_name```: Compress files/folders with options.
 - ```gunzip```: Decompress compressed files.
 - ```tar -cf archive.tar file1 file2```: Create an archive with tar
 - ```tar -xf archive.tar```: Extract files from an archive
+- ```scp -i "<private key path>" <source file> <destination>``` : used to remotely transfer files or folders between computers over a network using SSH.
 
 ---
 
@@ -137,7 +140,9 @@ chmod 644 file.txt
 - ```chown -R <owner> <file>```: Change owner recursively.
 - ```chown <owner>:<group> <file>```: Change owner and group.
 - ```chgrp <group> <file>```: Change group ownership.
-- ```umask -S```: Display the default permissions mask.
+- ```umask -S```: used to control the default permissions for newly created files and directories
+
+---
 
 ## Disk Usage
 - ```du```: Calculate directory size in bytes.
@@ -360,7 +365,3 @@ chmod 400 <key pair name>
 ```
 ssh -i <key pair name> ubuntu@<its public DNS
 ```
-
-
-
-
